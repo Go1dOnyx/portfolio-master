@@ -1,0 +1,81 @@
+<header>
+    <!--Header Section--->
+    <div class="container-one">
+        <p>Founder of Zymbiote - Merch Shop</p>
+        <h1><font size="26">Hi!<br> I'm <span style="color: red; text-decoration: underline;">Jesus Diaz</span> 🚀</font></h1>
+        <p style="text-indent: 18px; color:rgb(53, 53, 53)">
+            A Full Stack Developer, Artist and Computer Technician from Dallas, TX.
+            I've worked with various CRUD and RESTful applications that include an ecommerce
+            store, a banking system, and social media pages. I've even managed the databases 
+            for these applications using SSMS and MySQL. I use Photoshop for my designs and 
+            currently building my own graphic tees shop, known as Zym. This website was made
+            using Angular17, HTML, CSS, JavaScript, and Firebase API implementation.
+        </p>
+        <a style="margin-bottom: 5rem;" (click)="navigateToAbout()" routerLink="/about">Learn More ➜</a><br><br>
+
+        <div class="additional-layout-one">
+            <button type="button" class="btn custom-indent-right" (click)="downloadResume()">RESUME    </button>  | 
+            <button type="button" class="btn custom-indent-left" routerLink="/contact">HIRE ME   </button>
+        </div>
+    </div>
+    <div class="container-two">
+        <img src="assets/HomePage3.png" >
+
+        <div class="additional-layout-two">
+            <button type="button" class="btn custom-indent-right">RESUME    </button>   
+            <button type="button" class="btn custom-indent-left" routerLink="/contact">HIRE ME   </button>
+        </div>
+    </div>
+</header>
+<!---Section for skills-->
+<section>
+    <h1>What do I know and can do? - The List of My Skills</h1>
+    <div style="text-align: center;">
+        <div class="list-container">
+            <ul>
+                <h4>Front-End</h4>
+                <li>HTML/HTML5</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>Angular 12+</li>
+                <li>TypeScript</li>
+                <li>jQuery</li>
+                <li>CSS</li>
+                <li>Web Forms</li>
+                <li>Window Forms</li>
+                <img class="skill-icon" src="assets/front-end.png">
+             </ul>
+        </div>
+        <div class="list-container">
+            <ul>
+                <h4>Back-End</h4>
+                <li>ASP.NET</li>
+                <li>Unit Testing</li>
+                <li>ADO.NET</li>
+                <li>Web API</li>
+                <li>APIs</li>
+                <li>PHP</li>
+                <li>C#/.NET</li>
+                <li>SQL</li>
+                <li>T-SQL</li>
+                <img class="skill-icon" src="assets/back-end2.png">
+             </ul>
+        </div>
+        <div class="list-container">
+            <ul>
+                <h4>Other</h4>
+                <li>Data Science</li>
+                <li>Networking</li>
+                <li>Technician</li>
+                <li>Linux</li>
+                <li>MySQL</li>
+                <li>Azure</li>
+                <li>SSMS</li>
+                <li>Git</li>
+                <li>Docker</li>
+                <img class="skill-icon" src="assets/other.png">
+             </ul>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

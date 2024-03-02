@@ -1,0 +1,94 @@
+<div class="container-one">
+    <img class="about-image" src="assets/AboutPortfolio1.png">
+    <div class="about-container">
+        <a class="backToHome" (click)="redirectTo('home')" routerLink="">←Back To Home</a>
+        <h1>About Me</h1>
+        <div class="about-info">
+            <img class="about-image-two" src="assets/AboutPortfolio1.png">
+            <p>Location: Dallas, TX 75235</p>
+            <p>Email Address: <a style="color:red;" href="mailto:jdiazndca21@gmail.com">Jdiazndca21&#64;gmail.com</a></p>
+            <p>Phone Number: <a style="color:red;" href="tel:469-996-8340">+1 (469) 996-8340</a></p>
+        </div>
+        <p style="text-indent: 18px; color:rgb(53, 53, 53)">
+            I'm Jesus Diaz, a graduate from Brookhaven College at Farmers Branch, TX. I graduated 
+            with an Associate's Degree as a Software Developer and recieved my certfications as a 
+            Computer Programmer and in Microsoft Word. I'm Full Stack Developer for Elite Devz, 
+            Graphic Designer and Computer Technician from Dallas, TX. I've worked with various CRUD and 
+            RESTful applications that include a power dailer system, crawler Web API application that 
+            is a microservice for other applications to use to gather relevant information from websites.
+            I've managed the databases for these applications using SSMS and Azure, but I'm also
+            familiar with MySQL or NoSQL databases. I'm currently building my own ecommerce store, known 
+            as Zym or Zymbiote. This is a huge project that I'm working on my own to sell clothing from 
+            my own graphic designs using Photoshop and ProCreate.
+        </p><br>
+        <div class="social-section">
+            <i class="fa fa-github social-item" style="font-size:48px;" (click)="redirectTo('github')"></i>
+            <i class="fa fa-linkedin-square social-item" style="font-size:48px;" (click)="redirectTo('linkedin')"></i>
+            <i class="fa fa-youtube-play social-item" style="font-size:48px;" (click)="redirectTo('youtube')"></i>
+        </div>
+    </div>
+</div>
+<div class="container-second">
+    <div class="category">
+        <h2>Professional Experience</h2>
+        <div class="sub-container">
+            <h3>Elite Devz - Full Stack Developer</h3>
+            <p>February 2022 - Currently | St. Louis, Missouri 63105</p>
+            <ul>
+                <li>Worked on an Internal Web Based Application that was for a Crawler Project</li>
+                <li>The Crawler was designed to crawl any set of websites and was extremely configurable</li>
+                <li>This application was also design to scrape any relevant data the user wants to recieve</li>
+                <li>Stack Utilized: C#, .NET 7, ASP.NET, EF, Web APIs, SQL Server, HTML, CSS, JavaScript, xUnit.</li>
+                <li>Methodologies Used: RESTful, SOAP, and other Web API's.</li>
+            </ul>
+        </div>
+        <div class="sub-container">
+            <h3>Apex Power Dailer - Full Stack Developer</h3>
+            <p>March 2023 - Currently | St. Louis, Missouri 63105</p>
+            <ul>
+                <li>Worked on CRUD based pages for a Power Dailer System.</li>
+                <li>Responsible for completing tickets in a timely manner, mainly maintenance request, bug fixes, and new feature development.</li>
+                <li>The application is connect to several microservices(Web API's) and use Azure for database management.</li>
+                <li>This project uses Angular/TypeScript for the Front-End development that connects to the several microservices.</li>
+                <li>Stack Utilized: C#, .NET 6, .NET Core, ASP.NET, Web API's, SQL Server, Angular, HTML, CSS</li>
+            </ul>
+        </div>
+        <div class="sub-container">
+            <h3>SMS InfoComm - Computer Technician</h3>
+            <p>April 2022 - February 2023 | Grapevine, Texas 76051</p>
+            <ul>
+                <li>Diagnose and Troubleshoot HP Laptops</li>
+                <li>Disassembly of Hardware Parts</li>
+                <li>Repairing Defective Parts</li>
+                <li>Fix Software Problems</li>
+                <li>Troubleshoot Network Issues</li>
+            </ul>
+        </div>
+    </div>
+    <div class="category">
+        <h2>Educational Experience</h2>
+        <div class="sub-container">
+            <h3>Brookhaven College - Associate's Degree in Software Developer</h3>
+            <p>August 2019 - August 2021 | Farmers Branch, Texas 75244</p>
+            <ul>
+                <li>Creating Full Stack applications in Web design classes using HTML, CSS3, JavaScript, and PHP</li>
+                <li>Worked with Windows Forms to designs desktop applications using C# and ADO.NET</li>
+                <li>Managed SQL databases using SSMS and MySQL</li>
+                <li>Certification for Computer Programmer and Microsoft Word</li>
+                <li>Graduated with a GPA of 3.2</li>
+            </ul>
+        </div>
+        <div class="sub-container">
+            <h3>University of Texas at Arlington - Bachelor's Degree in Software Engineering</h3>
+            <p>August 2021 - Currently (On Break) | Arlington, Texas 76013</p>
+            <ul>
+                <li>Creating console applications using C language and learning OOP concepts</li>
+                <li>Develop programs using Data Stuctures & Algorithms </li>
+                <li>Learning about Networking and Security</li>
+                <li>AI and Autonomous Robotic Programming</li>
+                <li>Computer System Design and Design Patterns</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

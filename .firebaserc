@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "portfolio-db867": {
+      "hosting": {
+        "portfolio": [
+          "myportfolio123"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "portfolio-db867"
+  }
+}

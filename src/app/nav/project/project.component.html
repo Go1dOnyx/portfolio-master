@@ -1,0 +1,22 @@
+<div class="project-container">
+    <section>
+        <h1>Projects</h1>
+        <h4>
+            Note that these applications may still be in development and might need further testing to be done,<br>
+            but I only showcasing these projects to demonstrate the type of work that I'm capable to do.
+        </h4>
+        <input style="width: 30%; font-size: 20px; margin-top: 3rem;" type="text" [(ngModel)]="searchText" placeholder="search...">
+    </section>
+    <section>
+        <h2 style="font-size: 30px;">Latest</h2>
+        <!--Div categories will soon have their own images above title--->
+        <div *ngFor="let category of listProjectCategories" class="category-container">
+            <div *ngIf="matchCategoryList(category)" class="category">
+                <h3 class="item"> {{ category.name }}</h3>
+                <p class="item">{{category.description}}</p><br>
+                <button *ngIf="category.link" class="btn item" (click)="visitPage(category.link)">View on Github</button>
+            </div>
+        </div>
+    </section>
+</div>
+<app-footer></app-footer>
