@@ -22,11 +22,11 @@ export class ProjectComponent implements OnInit{
         + " CSS, and ASP.NET as usual. This is simple scientific calculator that I'll soon work on to add more advanced features to do "+
         "complex algrebic equations and much more.",
         link: 'https://github.com/Go1dOnyx/ScientificCalculator'},
-        { name: 'Ecommerce', description: "This is an ecommerce store that I am currently working on using ASP.NET MVC, " +
-        "JavaScript, CSS3, HTML, and Entity Framework. This project is not going to be too complex" +
-        "application. However, the official ecommerce store would be based on this prototype and will have microservices. This project will be using "+
+        { name: 'Ecommerce', description: "This is an ecommerce store that I am currently working on using ASP.NET Web APIs, " +
+        "Angular, CSS3, HTML, and Entity Framework." +
+        " However, the official ecommerce store would be based on this prototype and will have microservices. This project will be using "+
         "Angular/TypeScript for the Front-End that will connect to several Web APIs using ASP.NET.",
-        link: 'https://github.com/Go1dOnyx/EcommerceStore'}
+        link: 'https://github.com/Go1dOnyx/ZymAPI'}
     ];
 
     constructor(private tabService: TabService) {}
